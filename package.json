@@ -1,0 +1,16 @@
+{
+  "name": "shipthis-office-to-pdf",
+  "version": "1.0.0",
+  "description": "Convert office documents to pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayur Rawte",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0"
+  }
+}
