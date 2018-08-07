@@ -13,7 +13,7 @@ app.use(fileUpload());
 app.get('/', (req, res) => { 
     res.send('Hello World!')
 });
-app.post('/convert-to-pdf', (req, res) => {
+app.post('/', (req, res) => {
     console.log(req.files.upload_file);
     let upload_file = req.files.upload_file;
     console.log(upload_file.md5);
